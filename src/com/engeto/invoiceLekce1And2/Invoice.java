@@ -1,4 +1,4 @@
-package com.engeto.invoice;
+package com.engeto.invoiceLekce1And2;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
