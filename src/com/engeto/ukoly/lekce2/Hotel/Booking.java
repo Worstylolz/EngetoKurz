@@ -72,6 +72,6 @@ public class Booking {
 
     @Override
     public String toString() {
-        return "Pokoj:"+getRoom().roomId+" má rezervaci od:"+from+" do:"+to+"\nTyp rezervace: "+type+"\nInformace o hostech:\n"+guest+"\n";
+        return "Pokoj:"+getRoom().roomId+" má rezervaci od:"+from+" do:"+to+"\nTyp rezervace: "+type.label+"\nInformace o hostech:\n"+guest+"\n";
     }
 }
